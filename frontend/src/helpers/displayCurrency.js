@@ -1,7 +1,7 @@
 const displayINRCurrency = (num) => {
-    const formatter = new Intl.NumberFormat('en-IN',{
+    const formatter = new Intl.NumberFormat('ur-PK',{
         style : "currency",
-        currency : 'INR',
+        currency : 'PKR',
         minimumFractionDigits : 2
     })
 
